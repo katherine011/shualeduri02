@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-color: navy;
+    font-family: Barlow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Barlow;
+}
+
+.conteiner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+    background-color: white;
+    font-family: Barlow;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.Btn1 {
+    font-family: Barlow;
+    width: 150px;
+    height: 48px;
+    background-color: rgba(232, 239, 242, 1);
+    border-radius: 8px;
+    color: #162542;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.Btn1:hover {
+    background-color: rgba(22, 37, 66, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.Div1 {
+    width: 327px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.Head1 {
+    width: 327px;
+    color: #162542;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; 
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.Txt1 {
+    width: 327px;
+    color: #7B8BAD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+    margin-bottom: 32px;
+}
+
+.Box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+
+.Btn2 {
+    font-family: Barlow;
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #F16718;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.Btn2:hover {
+    background-color: rgba(255, 155, 98, 1);
+}
+
+.Head2 {
+    color: #7B8BAD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    text-transform: uppercase;
+}
+
+.img1 {
+    border-radius: 25px 0px 0px 25px ;
+    position: relative;
+    margin-left: 24px;
+}
+
+.Timg1 {
+    display: none;
+}
+
+.Box3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /* margin-left: -48px; */
+    margin-bottom: 60px;
+}
+
+.img2 {
+    border-radius: 0px 18px 18px 0px;
+    padding-right: 0;
+    width: 200;
+    height: 190px;
+}
+
+.img3 {
+    width: 200px;
+    height: 190px;
+    border-radius: 18px;
+}
+
+.Div2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.Box4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Head3 {
+    width: 255px;
+    color: #162542;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.Txt2 {
+    width: 327px;
+    color: #7B8BAD;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+
+.BoxA {
+    width: 327px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.Head4 {
+    width: 327px;
+    color: #162542;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; 
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.Txt3 {
+    width: 327px;
+    color: #7B8BAD;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+
+.Div4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 27px;
+}
+
+.Head5 {
+    color: #7B8BAD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+}
+
+.Head6 {
+    color: #7B8BAD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+@media(max-width: 1440px)and (min-width:450px){
+    body {
+        width: 100%;
+        color: #162542;
+        font-family: Barlow;
+        background-color: #162542;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .conteiner {
+        width: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: white;
+        padding: 40px;
+    }
+    
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+    
+    .Btn1 {
+        width: 175px;
+        height: 58px;
+        background-color: rgba(232, 239, 242, 1);
+        border-radius: 8px;
+        border: none;
+        color: #162542;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; 
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Btn1:hover {
+        background-color: rgba(22, 37, 66, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .Div1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-bottom: 40px;
+    }
+    
+    .Box1 {
+        width: 339px;
+        height: 305px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .Head1 {
+        width: 339px;
+        color: #162542;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px; 
+        text-transform: uppercase;
+    }
+    
+    .Txt1 {
+        width: 339px;
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; 
+    }
+    
+    .Box2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .Btn2 {
+        width: 175px;
+        height: 58px;
+        background-color: rgba(241, 103, 24, 1);
+        border-radius: 8px;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; 
+        text-transform: uppercase;
+        border: none;
+    }
+    
+    .Btn2:hover {
+        background-color: rgba(255, 155, 98, 1);
+    }
+    
+    .Head2 {
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; 
+        text-transform: uppercase;
+    }
+    
+    .img1 {
+        display: none;
+    }
+    
+    .Timg1 {
+        display: block;
+        height: 400px;
+        display: block;
+        border-radius: 25px 0px 0px 25px;
+        margin-left: 69px;
+        position: relative;
+    }
+    
+    .Div2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    
+    .img2 {
+        border-radius: 28px;
+        height: 300px;
+        width: 215px;
+    }
+    
+    .img3 {
+        border-radius: 28px;
+        width: 430px;
+        height: 300px;
+        /* margin-right: 150px; */
+    }
+    
+    .Box3, .Box4 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 70px;
+    }
+    
+    .Head3 {
+        width: 255px;
+        color: #162542;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 36px; 
+        text-transform: uppercase;
+        text-align: start;
+    }
+    
+    .Txt2 {
+        width: 398px;
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; 
+        margin-left: 20px;
+        text-align: start;
+        margin-bottom: 20px;
+    }
+    
+    .Div3 {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    
+    .BoxA {
+        width: 281px;
+        height: 289px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .BoxB {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .Head4 {
+        width: 339px;
+        color: #162542;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 28px; 
+        text-transform: uppercase;
+        margin-top: 25px;
+        text-align: start;
+    }
+    
+    .Txt3 {
+        width: 281px;
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; 
+        text-align: start;
+    }
+    
+    .Div4 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 5px;
+    }
+    
+    .Head5 {
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    
+    .Head6 {
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+    }
+    
+    .card {
+        margin-bottom: 60px;
+    }
+    
+    .kath {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:2500px) and (min-width:1440px) {
+    body {
+        width: 100%;
+        /* margin: 0px 35px 5px; */
+        background-color: #162542;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .conteiner {
+        width: 100%;     
+        background-color: white;
+        width: max-content;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 40px 90px 5px 90px;
+        position: relative;
+    }
+    
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    
+    .Btn1 {
+        width: 175px;
+        height: 58px;
+        border-radius: 8px;
+        background-color: rgba(232, 239, 242, 1);
+        color: #162542;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; 
+        text-transform: uppercase;
+        border: none;
+    }
+    
+    .Btn1:hover {
+        background-color: rgba(22, 37, 66, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .Div1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+    
+    .Head1 {
+        width: 444px;
+        color: #162542;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 56px; 
+        text-transform: uppercase;
+    }
+    
+    .Txt1 {
+        width: 444px;
+        color: #7B8BAD;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; 
+    }
+    
+    .Box1 {
+        width: 444px;
+        height: 312px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .Box2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    
+    .Btn2 {
+        width: 175px;
+        height: 58px;
+        border-radius: 8px;
+        background-color: rgba(241, 103, 24, 1);
+        color: #FFF;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+        border: none;
+    }
+    
+    .Btn2:hover {
+        background-color: rgba(255, 155, 98, 1);
+    }
+    
+    .Head2 {
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; 
+        text-transform: uppercase;
+        margin-left: 40px;
+    }
+    
+    .Timg1 {
+        display: none;
+    }
+    
+    .Div2, .Box3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .Div2 {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    .img1 {
+        display: block;
+        border-radius: 22px;
+        height: 510px;
+    }
+    
+    .img2 {
+        width: 240px;
+        height: 470px;
+    }
+
+    .img3 {
+        width: 450px;
+        height: 470px;
+        border-radius: 20px;
+        margin-right: 100px;
+    }
+    
+    .Box4 {
+        width: 255px;
+        height: 265px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .Head3 {
+        width: 255px;
+        color: #162542;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 36px; 
+        text-transform: uppercase;
+        text-align: start;
+    }
+    
+    .Txt2 {
+        width: 255px;
+        color: #7B8BAD;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; 
+        text-align: start;
+    }
+    
+    .Div3, .BoxB {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    
+    
+    .BoxA {
+        width: 255px;
+        height: 323px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .Head4 {
+        width: 255px;
+        color: #162542;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 28px; 
+        text-transform: uppercase;
+        margin-top: 25px;
+        text-align: start;
+    }
+    
+    .Txt3 {
+        width: 255px;
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; 
+        text-align: start;
+    }
+    
+    .Div4 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 7px;
+        margin-bottom: 20px;
+    }
+    
+    .Head5 {
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; 
+    }
+    
+    .Head6 {
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+    }
+    
+    .kath, .card1 {
+        margin-left: 20px;
+    }
+}
